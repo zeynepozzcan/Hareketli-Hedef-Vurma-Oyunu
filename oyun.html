@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oyun</title>
+    <link rel="stylesheet" href="oyun.css">
+</head>
+<body>
+    <audio src ="ses/LFZ Popsicle House NCS Copyright Free Music.mp3" autoplay loop muted>
+    </audio>
+    <div id="skor"></div>
+    <div id="oldurulen"></div>
+    <div id="basla" class="panel">
+        <h3>Hareketli Hedefleri Vurma Oyunu</h3>
+        <p>Topların Sana Çarpmasına İzin Verme!</p>
+        <button onclick="init();">OYNA</button>
+    </div>
+    <button id="nextLevelButton" style="display: none;">NEXT LEVEL</button>
+    <canvas id="canvas"></canvas>
+    <script src="oyun.js"></script>
+</body>
+</html>
